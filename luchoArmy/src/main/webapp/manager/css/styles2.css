@@ -1,0 +1,124 @@
+.pagina-carrito {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.titulo-principal {
+    margin: 0;
+}
+
+.contenido-principal {
+    display: flex;
+}
+
+.contenedor-productos {
+    width: 70%;
+    padding: 20px;
+}
+
+.contenedor-resumen {
+    width: 30%;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.tabla-productos {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabla-productos th,
+.tabla-productos td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabla-productos th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.producto {
+    display: flex;
+    align-items: center;
+}
+
+.producto img {
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+.cantidad-producto input {
+    width: 50px;
+}
+
+.subtotal,
+.precio-unitario {
+    text-align: right;
+}
+
+.eliminar-producto {
+    text-align: center;
+}
+
+.boton-comprar {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.titulo-seccion {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.tabla-resumen {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabla-resumen th,
+.tabla-resumen td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabla-resumen th {
+    width: 50%;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.total-productos,
+.impuestos,
+.total {
+    text-align: right;
+}
+
+.boton-comprar {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
