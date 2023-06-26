@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Shop Homepage - Start Bootstrap Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="img/logo3_title.png" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/stylesss.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/mystyles.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg fondo">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html"><img src="img/logo3_1.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!--Buscado-->
+                    <ul class="navbar-nav m-auto">
+                        <div class="input-group ml-40">
+                            <input class="form-control" type="text" placeholder="Buscar videojuego..." aria-label="Search for..." aria-describedby="btnNavbarSearch">
+                            <button class="btn btn-outline-light" type="submit"><i class="bi-search me-1"></i></button>
+                        </div>
+                    </ul>
+                    <form class="d-flex">
+                        <!--boton registrar-->
+                        <div class="dropdown">
+                            <button class="btn mt-auto" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: 0px " >
+                                <a class="text-decoration-none" style="color: white" href="./pages/login.html"><img src="img/avatar2.png" height="15px" alt="Avatar" class="avatar">¡Hola Luchito! </a>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Editar perfil</a></li>
+                                <li><a class="dropdown-item" href="#">Mis compras</a></li>
+                                <li><a class="dropdown-item" href="#">Mis direcciones</a></li>
+                                <li><a class="dropdown-item" href="#">Mis tarjetas</a></li>
+                                <li style="color: darkred!important;"><a class="dropdown-item" href="./index.html" style="color: red!important;"><b>Cerrar Sesión</b></a></li>
+                            </ul>
+                        </div>
+                        <!--carrito-->
+                        <div style="margin-right: 5px!important;"></div>
+                        <div class="m-auto">
+                            <a class="btn btn-outline-light" href="carrito_definitivo.html" >
+                                <i class="bi-cart-fill me-1"></i>
+                                Cart
+                                <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                            </a>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </nav>
+        <!--Navegacion 2-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #ebf2f3!important;">
+            <div class="container px-4 px-lg-5">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Populares</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Ofertas</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#!">Accion</a></li>
+                                <li><a class="dropdown-item" href="#!">Aventura</a></li>
+                                <li><a class="dropdown-item" href="#!">Estrategia</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Vender un videojuego</b></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="estadoVideojuegos.html">Estado de videojuegos por vender</a></li>
+                                <li><a class="dropdown-item" href="venderVideojuego.html">Vender un videojuego</a></li>
+                                <li><a class="dropdown-item" href="misCompras.html">Ver mis compras</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Publicar un videojuego</h1>
+                </div>
+            </div>
+        </header>
+        <div class="container-xxl position-relative bg-white d-flex p-0" style="width: 80%;">
+            <!-- Form Start -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="bg-light rounded h-100 p-4">
+                            <h4><p style="text-align:center">Imagen del juego</p></h4>
+                            <div class="container">
+                                <!-- Formulario de carga de imagen -->
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="formFile" class="form-label">Selecciona una imagen para cargar:</label>
+                                        <input class="form-control" type="file" id="formFile">
+                                    </div>
+                                </form>
+                                <!-- Div para mostrar la imagen subida -->
+                                <div id="image-preview"></div>
+                                <!-- Botón para eliminar la imagen -->
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" class="btn btn-danger" id="delete-image">Eliminar imagen</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="bg-light rounded h-100 p-4">
+                            <h4><p style="text-align:center">Detalles del nuevo videojuego</p></h4>
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label">Nombre</label>
+                                    <input class="form-control" >
+                                </div>
+                                <div class="form-floating  mb-3">
+                                    <textarea class="form-control" placeholder="Leave a comment here"
+                                              id="floatingTextarea" style="height: 150px;"></textarea>
+                                    <label for="floatingTextarea">Añade una descripción al juego</label>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Precio:</label>
+                                    <span class="input-group-text" >S/.<input  class="form-control" > </span>
+
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <label class="form-label">Categoria:</label>
+                                    <br>
+                                    <select class="form-select" id="floatingSelect"
+                                            aria-label="Floating label select example">
+                                        <option selected>Escoja la categoria</option>
+                                        <option value="1">Aventura</option>
+                                        <option value="2">Acción</option>
+                                        <option value="3">Deporte</option>
+                                        <option value="4">Militar</option>
+                                    </select>
+                                    <label for="floatingSelect"></label>
+                                </div>
+
+
+
+                                <div class="m-auto">
+                                    <button type="submit" class="btn btn-primary">Guardar</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Content End -->
+        </div>
+
+
+
+        <!-- Template Javascript -->
+        <script src="js/mean.js"></script>
+    </body>
+
+</html>
